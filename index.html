@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<script type="text/javascript">
+	var note1 = Number(prompt("donner une premiere note"));
+    var note2 = Number(prompt("donner une deuxieme note"));
+    var note3 = Number(prompt("donner une troisieme note"));
+    var somme = note1*2 + note2*2 + note3*3;
+    var moyenne = somme /7;
+
+
+if (moyenne>=10)
+	{alert("Admis")
+    document.bgColor="greenblue"
+    document.write("ADMIS")}
+else if (moyenne<8)
+	{alert("Pas admis")
+    document.bgColor="red"
+    document.write("PAS ADMIS")}
+else
+	{document.write("Rattrapage")
+    document.bgColor="orange"
+    alert("Rattrapage")}
+
+    document.write("<table border=2>"+"<tr>"+"<td>"+"Voici la somme: "+somme+"</td>");
+    document.write("<td>"+"Voici votre moyenne: "+moyenne+"</td>"+"</tr>"+"</table>");
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
