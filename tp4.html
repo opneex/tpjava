@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+function calculate(){
+	var x=parseInt(document.getElementById("first").value);
+	var y=parseInt(document.getElementById("second").value);
+	var z=parseInt(document.getElementById("third").value);
+
+    var a=parseInt(document.getElementById("first1").value);
+	var b=parseInt(document.getElementById("second1").value);
+	var c=parseInt(document.getElementById("third1").value);
+
+	var d=parseInt(document.getElementById("first2").value);
+	var e=parseInt(document.getElementById("second2").value);
+	var f=parseInt(document.getElementById("third2").value);
+
+
+	document.getElementById("answer").value=(y*z);
+	document.getElementById("answer1").value=(b*c);
+	document.getElementById("answer2").value=(e*f);
+	document.getElementById("total").value=(b*c+e*f+y*z);
+	}
+
+</script>
+
+<form>
+<table border="2">
+
+<tr>
+<td>Article :</td>
+<td>Prix :</td>
+<td>Quantité :</td>
+<td>Résultat :</td>
+</tr>
+
+<tr>
+<td><input id="first" type="text" name="first" placeholder="saisir le désignation"></td>
+<td><input id="second" type="text" name="second" value="0"></td>
+<td><input id="third" type="text" name="third" value="0"></td>
+<td><input id="answer" type="text" name="answer" value="0"></td>
+</tr>
+
+<<tr>
+<td><input id="first1" type="text" name="first1" placeholder="saisir le désignation"></td>
+<td><input id="second1" type="text" name="second1" value="0"></td>
+<td><input id="third1" type="text" name="third1" value="0"></td>
+<td><input id="answer1" type="text" name="answer1" value="0"></td>
+</tr>
+
+<tr>
+<td><input id="first2" type="text" name="first2" placeholder="saisir le désignation"></td>
+<td><input id="second2" type="text" name="second2" value="0"></td>
+<td><input id="third2" type="text" name="third2" value="0"></td>
+<td><input id="answer2" type="text" name="answer2" value="0"></td>
+</tr>
+
+<tr>
+<td></td>
+<td><input type="reset" name="t1"></td>
+<td><input onclick="calculate()" type="button" value="Calculer"></td>
+<td><input id="total" type="text" name="total"></td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
