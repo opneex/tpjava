@@ -13,7 +13,7 @@ button{
    margin-left: 70px;
    margin-top: 50px;
    font-size: 50px;
-   box-shadow: 10px 10px 10px;
+   box-shadow: 10px 7px 7px;
 }
 
 @media (hover: hover) {
