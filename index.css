@@ -6,12 +6,12 @@ h1{
 button{
    border-radius: 5px;
    color: #960FE3;
-   background-color: black;
+   background-color: yellow;
    font-size: 21px;
    float: left;
    padding: 15px;
-   margin-left: 70px;
-   margin-top: 50px;
+   margin-left: 40px;
+   margin-top: 40px;
    font-size: 50px;
    box-shadow: 10px 10px 10px;
 }
